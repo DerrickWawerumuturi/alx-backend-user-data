@@ -2,7 +2,6 @@
 """ Basic auth
 """
 
-
 from .auth import Auth
 
 
