@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "package.json"
+            ],
+            "url": "https://json.schemastore.org/package"
+        }
+    ],
+    "dependencies": {
+        "request": "^2.88.2"
+    }
+}
