@@ -21,3 +21,11 @@ class BasicAuth(Auth):
         if not authorization_header.startswith('Basic '):
             return None
         return authorization_header[len('Basic '):]
+
+    def decode_base64_authorization_header(
+        self,
+        base64_authorization_header: str
+            )-> str:
+        """ returns the decoded valueof Base64 str
+        """
+        
